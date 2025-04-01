@@ -1,4 +1,5 @@
 # onekey-smb-install-for-ubuntu
+THIS IS FOR LAZY PEOPLE LIKE ME !
 onekey smb install for ubuntu
 
 install
@@ -10,3 +11,4 @@ check :
 ```
 sudo systemctl status smb
 ```
+
