@@ -1,4 +1,12 @@
 # onekey-smb-install-for-ubuntu
 onekey smb install for ubuntu
 
-sudo ./installsmb_zh.sh
+install
+```
+sudo ./installsmb_en.sh
+```
+
+check : 
+```
+sudo systemctl status smb
+```
