@@ -66,28 +66,29 @@ echo [4] Configuring firewall rules...
 netsh advfirewall firewall add rule name="SMB File Sharing" dir=in action=allow protocol=TCP localport=445
 
 :: Get local IP address
-for /f "tokens=2 delims=:" %%i in ('ipconfig ^| findstr "IPv4"') do set IP=%%i
-set IP=%IP:~1%
 
-:: Display access instructions
-echo.
 echo =====================================================
-echo                         SMB Share Successful!
+echo                SMB Share Successful!
 echo -----------------------------------------------------
+echo                         IP
+echo -----------------------------------------------------
+ipconfig | findstr IPv4
+echo.
 echo  Windows:
-echo   \\%COMPUTERNAME%\SMBShare or \\%IP%\SMBShare
+echo   \\%COMPUTERNAME%\SMBShare
+echo   \\IP\SMBShare
 echo.
 echo  macOS:
-echo   smb://%COMPUTERNAME%/SMBShare or smb://%IP%/SMBShare
+echo   smb://%COMPUTERNAME%/SMBShare
+echo   smb://IP/SMBShare
 echo.
-echo -----------------------------------------------------
-echo  Command to view all current SMB shares:
+
+echo =====================================================
+echo                 Useful Commands
 echo   net share
-echo.
-echo  Command to close a share (example):
 echo   net share SMBShare /delete
 echo =====================================================
-echo Current shared folders:
+echo              Current shared folders:
 net share
 
 pause
