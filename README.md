@@ -17,3 +17,5 @@ sudo systemctl status smb
 
 ![image](https://github.com/user-attachments/assets/c4550674-5e71-4ba2-ad41-69f6571ad35f)
 
+知识参考：
+https://www.cnblogs.com/heyongshen/p/17824205.html 
