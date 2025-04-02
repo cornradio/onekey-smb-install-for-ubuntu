@@ -1,4 +1,7 @@
 # onekey-smb-install-for-ubuntu
+
+![image](https://github.com/user-attachments/assets/dd74f1fc-a650-4d27-b770-f2ae5dfdfb94)
+
 THIS IS FOR LAZY PEOPLE LIKE ME !
 onekey smb install for ubuntu
 
