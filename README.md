@@ -1,5 +1,6 @@
-THIS IS FOR LAZY PEOPLE LIKE ME !
-onekey smb install for ubuntu
+# onekey smb install for ubuntu/windows
+
+## ubuntu 
 
 install
 ```
@@ -11,10 +12,14 @@ check :
 sudo systemctl status smb
 ```
 
-
 ![image](https://github.com/user-attachments/assets/dd74dbb6-109f-4ace-973b-8edc72746b80)
 
 ![image](https://github.com/user-attachments/assets/c4550674-5e71-4ba2-ad41-69f6571ad35f)
 
-知识参考：
-https://www.cnblogs.com/heyongshen/p/17824205.html 
+## windows 10/11
+
+install:
+```
+./installsmb_en.bat
+```
+
