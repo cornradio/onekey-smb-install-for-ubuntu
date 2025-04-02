@@ -23,3 +23,7 @@ install:
 ./installsmb_en.bat
 ```
 
+![image](https://github.com/user-attachments/assets/f81a5f00-576b-4e41-9035-bba6a54984a5)
+
+
+![image](https://github.com/user-attachments/assets/6aa776f5-1bed-4a0d-ad15-cd87898df119)
